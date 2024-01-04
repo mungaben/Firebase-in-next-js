@@ -17,7 +17,6 @@ interface Item {
     price: number;
     quantity: number;
 }
-
 const PostData = () => {
     const [name, setName] = useState('');
     const [price, setPrice] = useState(0);
@@ -60,13 +59,8 @@ const PostData = () => {
                 setPrice(0)
 
                 setQuantity(0)
-
-
                 //REFRESH THE PAGE
-
                 window.location.reload()
-
-
             }
         } catch (e) {
             console.error("Error adding document: ", e);

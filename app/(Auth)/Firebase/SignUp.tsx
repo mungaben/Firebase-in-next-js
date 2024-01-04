@@ -13,10 +13,6 @@ const SignUp = () => {
     const router = useRouter()
 
     const handleForm = async (event: React.FormEvent) => {
-
-        console.log('====================================');
-        console.log('sign up', email, password);
-        console.log('====================================');
         event.preventDefault()
 
         const { result, error } = await signUp(email, password);
