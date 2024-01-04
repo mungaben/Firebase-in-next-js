@@ -10,21 +10,21 @@ const Navbar = () => {
   return (
     <div className='  top-0 fixed z-50 bg-foreground w-full '>
       <div className=' mt-2' >
-        <Logo/>
+        <Logo />
       </div>
       <div className=' flex bg-background flex-row justify-evenly mt-4 items-center'>
         <div>
           <Link href="/SignUp">
-             Sign Up
+            Sign Up
           </Link>
         </div>
 
         <div>
           <Link href="/SignUp">
-             Log In
+            Log In
           </Link>
         </div>
-        
+
       </div>
     </div>
   )

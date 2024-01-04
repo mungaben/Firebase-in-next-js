@@ -50,9 +50,9 @@ const Logo = () => {
           display: showButton ? "block" : "none",
         }}
       >
-       <Button>
-            <Link href="/">Home</Link>
-       </Button>
+        <Button>
+          <Link href="/">Home</Link>
+        </Button>
       </div>
     </nav>
   );
